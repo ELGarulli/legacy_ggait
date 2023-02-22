@@ -1,0 +1,40 @@
+EVENTS 
+Subject,Context,Name,Time (s),Description 
+#,Left,Foot Strike, 0.995,Foot Strike
+#,Left,Foot Strike, 2.575,Foot Strike
+#,Left,Foot Strike, 4.065,Foot Strike
+#,Left,Foot Strike, 5.555,Foot Strike
+#,Left,Foot Strike,  7.05,Foot Strike
+#,Left,Foot Strike,  8.58,Foot Strike
+#,Left,Foot Strike, 10.07,Foot Strike
+#,Left,Foot Strike,11.515,Foot Strike
+#,Left,Foot Strike,13.075,Foot Strike
+#,Left,Foot Off,   2.4,Foot Off
+#,Left,Foot Off, 3.685,Foot Off
+#,Left,Foot Off, 5.375,Foot Off
+#,Left,Foot Off,  6.64,Foot Off
+#,Left,Foot Off,  8.41,Foot Off
+#,Left,Foot Off, 9.715,Foot Off
+#,Left,Foot Off, 11.19,Foot Off
+#,Left,Foot Off, 12.61,Foot Off
+#,Left,Foot Off,14.395,Foot Off
+#,Right,Foot Strike, 0.345,Foot Strike
+#,Right,Foot Strike, 1.825,Foot Strike
+#,Right,Foot Strike, 3.385,Foot Strike
+#,Right,Foot Strike, 4.865,Foot Strike
+#,Right,Foot Strike, 6.375,Foot Strike
+#,Right,Foot Strike, 7.865,Foot Strike
+#,Right,Foot Strike,   9.4,Foot Strike
+#,Right,Foot Strike, 10.86,Foot Strike
+#,Right,Foot Strike,12.395,Foot Strike
+#,Right,Foot Strike, 13.89,Foot Strike
+#,Right,Foot Off, 1.185,Foot Off
+#,Right,Foot Off, 2.595,Foot Off
+#,Right,Foot Off, 4.155,Foot Off
+#,Right,Foot Off,  5.62,Foot Off
+#,Right,Foot Off, 7.135,Foot Off
+#,Right,Foot Off, 8.635,Foot Off
+#,Right,Foot Off,10.135,Foot Off
+#,Right,Foot Off, 11.64,Foot Off
+#,Right,Foot Off, 13.15,Foot Off
+#,Right,Foot Off, 14.68,Foot Off

@@ -1,0 +1,1 @@
+S = load('C:\Users\Elisa\Documents\GitHub\analysis\motor_episode.mat');

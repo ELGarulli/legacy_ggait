@@ -1,0 +1,28 @@
+eulerangles.m Settings for entire analysis datasets 
+SAVE_FILES = 1; /* Whether to save output files
+SAVE_SUMMARIES = 1; /* Whether to save summary data (i.e. calculated descriptive statistics)
+JOINT_AXIS = 2; /* Axis for the joints: at 0 rotation joint axes are parallel this axis
+SEGMENT_AXIS = 1; /* Axis for the segments: at nominal configuration segments are parallel this axis
+KINEMATIC_SCALE = 1; /* adjustment factor (e.g. scaling or negation) to apply to kinematics
+FILTER_KIN = 1; /* Whether to filter the kinematics data
+XYZ_SAMPLING_FREQUENCY_S = 100; /* sampling frequency of kinematics
+XYZ_CUTOFF_FREQUENCY_HZ = 5; /* cutoff frequency to use for low-pass Butterworth
+CALCULATE_VELOCITIES = 0; /* whether to calculate and save angular velocities
+COERCE_ANGLES = 0; /* whether to try to coerce the angles to the same sense
+USE_MEAN_SEGMENT_LENGTHS = 0; /* whether to use mean segment lengths when re-constructing xyz data
+INVOKE_MAKESTICK = 0; /* whether to run makestick.m after completion of eulerangles
+BEGIN_SAMPLE = 0; /* sample for makestick to begin displaying if all data in file are not good
+END_SAMPLE = 0; /* sample for makestick to end displaying if all data in file are not good
+FILL_GAPS = 0; /* whether to fill gaps in the data. 0 = don't fill gaps, 1 = fill gaps in raw data, 2 = fill gaps in calculated angles
+BODY_POINTS = 1 2 5 8 11 
+SEGMENT_CHAIN = 1 17 20 23 26 29
+SEGMENT_CHAIN = 1 35 38 41 44 47
+DOFS_TO_USE = 1 [1 1 1;1 1 1;1 1 1;1 1 1]
+DOFS_TO_USE = 1 [1 1 1;1 1 1;1 1 1;1 1 1]
+DOFS_TO_USE = 1 [1 1 1;1 1 1;1 1 1;1 1 1]
+DOFS_TO_USE = 1 [1 1 1;1 1 1;1 1 1;1 1 1]
+ANGLE_ORDER = 1 [2 3 1;2 3 1;2 3 1;2 3 1]
+ANGLE_ORDER = 1 [2 3 1;2 3 1;2 3 1;2 3 1]
+ANGLE_ORDER = 1 [2 3 1;2 3 1;2 3 1;2 3 1]
+ANGLE_ORDER = 1 [2 3 1;2 3 1;2 3 1;2 3 1]
+SOURCE_FILES = 1 .\TEMP.txt

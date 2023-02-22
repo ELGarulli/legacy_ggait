@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ParamStore>
+
+  <ParamDefinitionList name="DVOfflineCamera">
+    <ParamListGroup name="">
+      <ParamList name="62110533">
+        <Param name="Id" value="62110533"/>
+        <Param name="UserId" value="0"/>
+        <Param name="Name" value="A602fc"/>
+        <Param name="Type" value="DCAM"/>
+        <Param name="FocalLength" value="0.021"/>
+        <Param name="RadialParam1" value="0"/>
+        <Param name="RadialParam2" value="0"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="FramePeriod" value="1350000"/>
+        <Param name="FrameOffset" value="0"/>
+        <Param name="RVSU" value="0"/>
+        <Param name="LeftChannel" value="1"/>
+        <Param name="AudioOffset" value="0"/>
+        <Param name="RVSUToneLocation" value="0"/>
+        <Param name="Interlaced" value="0"/>
+        <Param name="InterlacedOddFieldFirst" value="1"/>
+        <Param name="InterlacedVOffset" value="0"/>
+      </ParamList>
+      <ParamList name="63902014">
+        <Param name="Id" value="63902014"/>
+        <Param name="UserId" value="1"/>
+        <Param name="Name" value="A602fc"/>
+        <Param name="Type" value="DCAM"/>
+        <Param name="FocalLength" value="0.02"/>
+        <Param name="RadialParam1" value="0"/>
+        <Param name="RadialParam2" value="0"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="FramePeriod" value="1350000"/>
+        <Param name="FrameOffset" value="0"/>
+        <Param name="RVSU" value="0"/>
+        <Param name="LeftChannel" value="1"/>
+        <Param name="AudioOffset" value="0"/>
+        <Param name="RVSUToneLocation" value="0"/>
+        <Param name="Interlaced" value="0"/>
+        <Param name="InterlacedOddFieldFirst" value="1"/>
+        <Param name="InterlacedVOffset" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Device::AMTI AccuGait Force Plate">
+    <ParamListGroup name="">
+      <ParamList name="Device::11">
+        <Param name="UserID" value="0"/>
+        <Param name="DeviceName" value="FORCE-PLATE"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="#2 MX Giganet"/>
+        <Param name="SourceID" value="2"/>
+        <Param name="DeviceFamily" value="AMTI AccuGait Force Plate"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceCategory" value="Force Plate"/>
+        <Param name="SamplePeriod" value="67500"/>
+        <Param name="Fill" value="0"/>
+        <Param name="Clear" value="0"/>
+        <Param name="SourcePin0" value="1"/>
+        <Param name="SourcePin1" value="2"/>
+        <Param name="SourcePin2" value="3"/>
+        <Param name="SourcePin3" value="4"/>
+        <Param name="SourcePin4" value="5"/>
+        <Param name="SourcePin5" value="6"/>
+        <Param name="SourcePin6" value="7"/>
+        <Param name="SourcePin7" value="8"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="CalibrationFile" value="C:/Program Files/Vicon/AMTI/Analog0625_1.acl"/>
+        <Param name="CalibrationMatrix" value="0.0365394 -0.0619483 0.0638271 -0.070144 0.0122439 -1.30331 1.31376 0.0125526 &#xA;-0.0575469 -0.0531422 0.0683505 0.078995 1.27451 0.0105533 -0.010638 1.30664 &#xA;-1.68606 -1.74147 -1.72346 -1.75985 -0.0042185 -0.0022522 0.0099243 -0.0017387 &#xA;5.37156 5.65858 -5.34098 -5.74547 0 0 0 0 &#xA;5.34801 -5.41848 5.50724 -5.71969 0 0 0 0 &#xA;-0.0165818 -0.0171267 -0.0169496 -0.0173074 4.93729 -4.99462 -5.03468 -5.06175 &#xA;"/>
+        <Param name="ZeroLevel" value="-0.11313 -0.0745963 -0.131386 -0.142802 0.0159512 -0.0200659 -0.0389352 -0.0295901 &#xA;"/>
+        <Param name="ForceThreshold" value="0"/>
+        <Param name="XLength" value="0.1524"/>
+        <Param name="YLength" value="0.1524"/>
+        <Param name="XPosition" value="0.077"/>
+        <Param name="YPosition" value="0.073"/>
+        <Param name="ZPosition" value="0"/>
+        <Param name="XRotation" value="0"/>
+        <Param name="YRotation" value="0"/>
+        <Param name="ZRotation" value="1.5708"/>
+        <Param name="XOrigin" value="-0.003"/>
+        <Param name="YOrigin" value="0"/>
+        <Param name="ZOrigin" value="0.00975269"/>
+        <Param name="RawVisible" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Device::Analog EMG">
+    <ParamListGroup name="">
+      <ParamList name="Device::10">
+        <Param name="UserID" value="1"/>
+        <Param name="DeviceName" value="SIGNAL"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="#2 MX Giganet"/>
+        <Param name="SourceID" value="2"/>
+        <Param name="DeviceFamily" value="Analog EMG"/>
+        <Param name="DeviceID" value="10"/>
+        <Param name="DeviceCategory" value="Other Devices"/>
+        <Param name="SamplePeriod" value="67500"/>
+        <Param name="AmplifierGain" value="1"/>
+        <Param name="RawVisible" value="0"/>
+      </ParamList>
+      <ParamList name="Device::9">
+        <Param name="UserID" value="0"/>
+        <Param name="DeviceName" value="EMG"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="#2 MX Giganet"/>
+        <Param name="SourceID" value="2"/>
+        <Param name="DeviceFamily" value="Analog EMG"/>
+        <Param name="DeviceID" value="9"/>
+        <Param name="DeviceCategory" value="Other Devices"/>
+        <Param name="SamplePeriod" value="67500"/>
+        <Param name="AmplifierGain" value="1000"/>
+        <Param name="RawVisible" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::AMTI AccuGait Force Plate::CoP">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::11,3">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputType" value="CoP"/>
+        <Param name="DeviceOutputQuantity" value="1 0 0 0 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::AMTI AccuGait Force Plate::Force">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::11,1">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Force"/>
+        <Param name="DeviceOutputQuantity" value="1 1 -2 0 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::AMTI AccuGait Force Plate::Moment">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::11,2">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputType" value="Moment"/>
+        <Param name="DeviceOutputQuantity" value="2 1 -2 0 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::Analog EMG::Voltage">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::10,1">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="10"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Voltage"/>
+        <Param name="DeviceOutputQuantity" value="2 1 -3 -1 0 0 0 0 0"/>
+      </ParamList>
+      <ParamList name="DeviceOutput::9,1">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="9"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Voltage"/>
+        <Param name="DeviceOutputQuantity" value="2 1 -3 -1 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::AMTI AccuGait Force Plate::CoP">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::11,3,1">
+        <Param name="DeviceOutputComponentName" value="Cx"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,3,2">
+        <Param name="DeviceOutputComponentName" value="Cy"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,3,3">
+        <Param name="DeviceOutputComponentName" value="Cz"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::AMTI AccuGait Force Plate::Force">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::11,1,1">
+        <Param name="DeviceOutputComponentName" value="Fx"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,1,2">
+        <Param name="DeviceOutputComponentName" value="Fy"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,1,3">
+        <Param name="DeviceOutputComponentName" value="Fz"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::AMTI AccuGait Force Plate::Moment">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::11,2,1">
+        <Param name="DeviceOutputComponentName" value="Mx"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,2,2">
+        <Param name="DeviceOutputComponentName" value="My"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,2,3">
+        <Param name="DeviceOutputComponentName" value="Mz"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::Analog EMG::Voltage">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::10,1,5">
+        <Param name="DeviceOutputComponentName" value="S1_trigger"/>
+        <Param name="DeviceID" value="10"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="5"/>
+        <Param name="SourcePin" value="17"/>
+        <Param name="SourceGain" value="1.25"/>
+        <Param name="ZeroLevel" value="0.00469196"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::10,1,6">
+        <Param name="DeviceOutputComponentName" value="SYNC"/>
+        <Param name="DeviceID" value="10"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="6"/>
+        <Param name="SourcePin" value="28"/>
+        <Param name="SourceGain" value="1.25"/>
+        <Param name="ZeroLevel" value="0.245319"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::10,1,7">
+        <Param name="DeviceOutputComponentName" value="L2_trigger"/>
+        <Param name="DeviceID" value="10"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="7"/>
+        <Param name="SourcePin" value="18"/>
+        <Param name="SourceGain" value="1.25"/>
+        <Param name="ZeroLevel" value="0.000207405"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::9,1,1">
+        <Param name="DeviceOutputComponentName" value="RTA"/>
+        <Param name="DeviceID" value="9"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+        <Param name="SourcePin" value="22"/>
+        <Param name="SourceGain" value="5"/>
+        <Param name="ZeroLevel" value="-0.000481873"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::9,1,3">
+        <Param name="DeviceOutputComponentName" value="RMG"/>
+        <Param name="DeviceID" value="9"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+        <Param name="SourcePin" value="23"/>
+        <Param name="SourceGain" value="5"/>
+        <Param name="ZeroLevel" value="0.000121002"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::9,1,4">
+        <Param name="DeviceOutputComponentName" value="LMG"/>
+        <Param name="DeviceID" value="9"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="4"/>
+        <Param name="SourcePin" value="21"/>
+        <Param name="SourceGain" value="1.25"/>
+        <Param name="ZeroLevel" value="-0.00101982"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::9,1,5">
+        <Param name="DeviceOutputComponentName" value="LTA"/>
+        <Param name="DeviceID" value="9"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="5"/>
+        <Param name="SourcePin" value="24"/>
+        <Param name="SourceGain" value="1.25"/>
+        <Param name="ZeroLevel" value="-0.000605392"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="PC">
+    <ParamListGroup name="">
+      <ParamList name=""/>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Device::Imported Analog Device">
+    <ParamListGroup name="">
+      <ParamList name="Device::12">
+        <Param name="UserID" value="0"/>
+        <Param name="DeviceName" value="Imported Analog Device 2"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="Workstation EMG Imported Analog Device 2"/>
+        <Param name="SourceID" value="7"/>
+        <Param name="DeviceFamily" value="Imported Analog Device"/>
+        <Param name="DeviceID" value="12"/>
+        <Param name="DeviceCategory" value="Other Devices"/>
+        <Param name="SamplePeriod" value="0"/>
+      </ParamList>
+      <ParamList name="Device::13">
+        <Param name="UserID" value="1"/>
+        <Param name="DeviceName" value="Imported Analog Device 3"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="Workstation EMG Imported Analog Device 3"/>
+        <Param name="SourceID" value="8"/>
+        <Param name="DeviceFamily" value="Imported Analog Device"/>
+        <Param name="DeviceID" value="13"/>
+        <Param name="DeviceCategory" value="Other Devices"/>
+        <Param name="SamplePeriod" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Device::Imported Force Plate">
+    <ParamListGroup name="">
+      <ParamList name="Device::11">
+        <Param name="UserID" value="0"/>
+        <Param name="DeviceName" value=""/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="Force Plate 11"/>
+        <Param name="SourceID" value="6"/>
+        <Param name="DeviceFamily" value="Imported Force Plate"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceCategory" value="Force Plate"/>
+        <Param name="SamplePeriod" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::Imported Analog Device::Voltage">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::12,1">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="12"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Voltage"/>
+        <Param name="DeviceOutputQuantity" value="2 1 -3 -1 0 0 0 0 0"/>
+      </ParamList>
+      <ParamList name="DeviceOutput::13,1">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="13"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Voltage"/>
+        <Param name="DeviceOutputQuantity" value="2 1 -3 -1 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::Imported Force Plate::CoP">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::11,3">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputType" value="CoP"/>
+        <Param name="DeviceOutputQuantity" value="1 0 0 0 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::Imported Force Plate::Force">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::11,1">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Force"/>
+        <Param name="DeviceOutputQuantity" value="1 1 -2 0 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::Imported Force Plate::Moment">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::11,2">
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputType" value="Moment"/>
+        <Param name="DeviceOutputQuantity" value="2 1 -2 0 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::Imported Analog Device::Voltage">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::12,1,1">
+        <Param name="DeviceOutputComponentName" value="RTA"/>
+        <Param name="DeviceID" value="12"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::12,1,2">
+        <Param name="DeviceOutputComponentName" value="RMG"/>
+        <Param name="DeviceID" value="12"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::12,1,3">
+        <Param name="DeviceOutputComponentName" value="LMG"/>
+        <Param name="DeviceID" value="12"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::12,1,4">
+        <Param name="DeviceOutputComponentName" value="LTA"/>
+        <Param name="DeviceID" value="12"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="4"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::13,1,1">
+        <Param name="DeviceOutputComponentName" value="S1_trigger"/>
+        <Param name="DeviceID" value="13"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::13,1,2">
+        <Param name="DeviceOutputComponentName" value="SYNC"/>
+        <Param name="DeviceID" value="13"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::13,1,3">
+        <Param name="DeviceOutputComponentName" value="L2_trigger"/>
+        <Param name="DeviceID" value="13"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::Imported Force Plate::CoP">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::11,3,1">
+        <Param name="DeviceOutputComponentName" value="Cx"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,3,2">
+        <Param name="DeviceOutputComponentName" value="Cy"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,3,3">
+        <Param name="DeviceOutputComponentName" value="Cz"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::Imported Force Plate::Force">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::11,1,1">
+        <Param name="DeviceOutputComponentName" value="Fx"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,1,2">
+        <Param name="DeviceOutputComponentName" value="Fy"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,1,3">
+        <Param name="DeviceOutputComponentName" value="Fz"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::Imported Force Plate::Moment">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::11,2,1">
+        <Param name="DeviceOutputComponentName" value="Mx"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,2,2">
+        <Param name="DeviceOutputComponentName" value="My"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::11,2,3">
+        <Param name="DeviceOutputComponentName" value="Mz"/>
+        <Param name="DeviceID" value="11"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+</ParamStore>
